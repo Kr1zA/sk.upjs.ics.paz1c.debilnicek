@@ -1,0 +1,2 @@
+Spustit aplikaciu;4.10.2016;false
+Vylepsit aplikaciu;11.10.2016;false

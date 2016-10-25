@@ -2,7 +2,7 @@ package sk.upjs.ics.paz1c.debilnicek;
 
 import java.util.*;
 
-class ZoznamUloh {
+class ZoznamUloh implements UlohaDao {
 
     private List<Uloha> ulohy = new ArrayList<Uloha>();
 
@@ -20,11 +20,11 @@ class ZoznamUloh {
         ulohy.add(uloha2);
     }
 
-    List<Uloha> dajUlohy() {
+    public List<Uloha> dajUlohy() {
         return ulohy;
     }
 
-    void pridaj(Uloha uloha) {
+    public void pridaj(Uloha uloha) {
         ulohy.add(uloha);
     }
 
