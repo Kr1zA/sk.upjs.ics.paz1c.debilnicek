@@ -25,7 +25,7 @@ public class SuborovyUlohaDao implements UlohaDao {
         }
         return ulohyNaUlozenie;
     }
-//test
+
     @Override
     public void pridaj(Uloha novaUloha) {
         try (FileWriter writer = new FileWriter(new File("ulohy.txt"), true)) {

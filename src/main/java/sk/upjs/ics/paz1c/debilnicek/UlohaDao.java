@@ -5,7 +5,7 @@ import java.util.List;
 public interface UlohaDao {
 
     List<Uloha> dajUlohy();
-//test
+
     void pridaj(Uloha novaUloha);
 
 }
